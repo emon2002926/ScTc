@@ -1,68 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/colorPrimaryDark"
-    tools:context=".MainActivity">
+    tools:context=".home">
 
-
-    <EditText
-        android:id="@+id/Text"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="user id"
-        android:inputType="textPersonName"
-         />
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="9dp"
-        android:layout_marginBottom="8dp"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="grnder"
-            android:textSize="20dp"/>
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            
-            <RadioGroup
-                android:layout_width="wrap_content"
-                android:id="@+id/radiogrup"
-                android:layout_height="wrap_content">
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/f"
-                    android:textSize="15dp"
-                    android:checked="false"
-                    android:text="femiel"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/m"
-                    android:textSize="15dp"
-                    android:checked="false"
-                    android:text="male"/>
+        android:text="djhfjh"
+        android:textSize="40dp"/>
 
-            </RadioGroup>
-        </LinearLayout>
-
-
-    </LinearLayout>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-
-</LinearLayout>
+</RelativeLayout>
