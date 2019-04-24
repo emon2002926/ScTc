@@ -1,28 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
 
-<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Baground"
+    android:layout_height="match_parent"
 
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/Gps"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/very"
-        android:gravity="center"
-        android:textColor="#fff"
-        android:text="Gps"
-        android:onClick="Maps"
-        android:textSize="40px"
-        android:textStyle="italic" />
+    tools:context=".MainActivity">
 
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/clc"
+            android:layout_width="wrap_content"
+            android:layout_height="269dp"
+            android:src="@drawable/cla"
+            />
+
+        <TextView
+            android:layout_below="@id/clc"
+            android:id="@+id/Gps"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:textColor="#1f211d"
+            android:text="Office Course"
+            android:textSize="40px"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/graphis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/very"
+            android:gravity="center"
+            android:layout_below="@+id/Gps"
+            android:textColor="#1f211d"
+            android:text="Graphic Design"
+            android:onClick="Maps"
+            android:textSize="40px"
+            android:textStyle="italic" />
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

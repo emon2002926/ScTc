@@ -59,7 +59,7 @@ public class Maps extends FragmentActivity implements OnMapReadyCallback {
 
         mMap.addMarker(new MarkerOptions().position(latLang).title("ScTc"));
 
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLang,15F));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLang,17F));
 
 
 
