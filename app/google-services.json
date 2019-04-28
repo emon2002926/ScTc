@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "641115010528",
+    "firebase_url": "https://sctc-ce050.firebaseio.com",
+    "project_id": "sctc-ce050",
+    "storage_bucket": "sctc-ce050.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641115010528:android:1c96929e9b133446",
+        "android_client_info": {
+          "package_name": "com.pluto.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641115010528-52v8pmr39h5ekakppc7hk7h54ib8pj9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pluto.application",
+            "certificate_hash": "a8e8838b71c74ccf30b21721df67ae949ac14328"
+          }
+        },
+        {
+          "client_id": "641115010528-ovv4raplmtonvm2h1d36bfenuptjocgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmzOQdN1C6DHosPY3cNbZMdljdu-8tlFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641115010528-ovv4raplmtonvm2h1d36bfenuptjocgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

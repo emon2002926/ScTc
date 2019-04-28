@@ -6,14 +6,25 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 
 public class home extends AppCompatActivity {
+    Firebase firebase;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+
+
+
     }
 
     @Override
@@ -31,6 +42,11 @@ public class home extends AppCompatActivity {
 
     public void Maps(MenuItem item) {
         Intent intent = new Intent(home.this,Maps.class);
+        startActivity(intent);
+    }
+
+    public void fire(View view) {
+        Intent intent = new Intent(home.this,Firebase1.class);
         startActivity(intent);
     }
 }
