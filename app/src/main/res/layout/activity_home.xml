@@ -19,7 +19,7 @@
             android:id="@+id/clc"
             android:layout_width="wrap_content"
             android:layout_height="269dp"
-            android:src="@drawable/cla"
+            android:src="@drawable/cc"
             />
 
         <TextView
@@ -32,6 +32,7 @@
             android:background="@drawable/very"
             android:gravity="center"
             android:textColor="#1f211d"
+            android:onClick="fj"
             android:text="Office Course"
             android:textSize="40px"
             android:textStyle="italic" />
@@ -48,11 +49,6 @@
             android:text="Graphic Design"
             android:textSize="40px"
             android:textStyle="italic" />
-
-
-
-
-
 
 
 
