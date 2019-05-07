@@ -80,7 +80,6 @@ public class home extends AppCompatActivity {
 
     }
 
-
     public void fj(View view) {
         Intent intent = new Intent(home.this,ImageI.class);
         startActivity(intent);
